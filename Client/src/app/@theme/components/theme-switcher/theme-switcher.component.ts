@@ -6,14 +6,7 @@ import { NbJSThemeOptions } from '@nebular/theme/services/js-themes/theme.option
   selector: 'ngx-theme-switcher',
   styleUrls: ['./theme-switcher.component.scss'],
   template: `
-    <label class="theme-switch">
-      <span class="light">Light</span>
-      <div class="switch">
-        <input type="checkbox" [checked]="currentBoolTheme()" (change)="toggleTheme(theme.checked)" #theme>
-        <span class="slider"></span>
-      </div>
-      <span class="cosmic">Cosmic</span>
-    </label>
+
   `
 })
 export class ThemeSwitcherComponent implements OnInit {
