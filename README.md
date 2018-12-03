@@ -1,6 +1,6 @@
 # Fresh Food Market
 
-> Eat healthy, live well!
+> Eat fresh, live well!
 
 ## Installation
 ```shell
@@ -12,7 +12,7 @@ $ cd ACML_Final
 ```shell
 $ cd Server
 $ npm install
-$ node app.js
+$ npm start
 ```
 
 > now in another command line install npm packages for client
@@ -72,3 +72,18 @@ $ npm install typeface-exo
 $ npm install web-animations-js
 $ npm install zone.js
 ```
+
+## Config
+> make your own config file with it's environment variables
+
+## Docker
+> to run the app using docker
+```shell
+$ docker-compose build
+$ docker-compose up
+```
+
+## Team
+> https://github.com/ahmyasser
+> https://github.com/MarwanYoussef
+> https://github.com/heemo70
