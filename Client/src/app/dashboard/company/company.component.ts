@@ -27,6 +27,5 @@ export class CompanyComponent implements OnInit, OnDestroy {
   }
   goToHome() {
      this.router.navigate(['/dashboard/items']);
-
   }
 }
