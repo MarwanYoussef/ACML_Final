@@ -1,4 +1,4 @@
-<a><img src="https://imgur.com/a/yjx1nFF" title="FreshFood" alt="FreshFood"></a>
+![alt text](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)
 
 # Fresh Food Market
 
