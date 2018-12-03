@@ -179,7 +179,7 @@ export class SmartTableComponent {
       var self = this;
       this.productService.editProduct(prodToEdit).subscribe(function (res) {
         if (res.msg === 'Product was updated successfully.') {
-          if (prodToEdit.sellerName === 'Ibrahim Ali')
+          // if (prodToEdit.sellerName === 'Ibrahim Ali')
             event.confirm.resolve(res.data);
           // alert('Product Edited!');
         }
