@@ -1,4 +1,4 @@
-![alt text](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)
+![alt text](https://raw.githubusercontent.com/MarwanYoussef/ACML_Final/master/client/src/assets/logo-150.png)
 
 # Fresh Food Market
 
