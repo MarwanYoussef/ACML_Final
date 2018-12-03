@@ -25,5 +25,5 @@ export const MENU_ITEMS: NbMenuItem[] = [
       icon: 'fa fa-user-plus',
       link: '/dashboard/auth/register',
     }]
-
+}
 ];
