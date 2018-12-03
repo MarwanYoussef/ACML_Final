@@ -88,7 +88,7 @@ export class SmartTableComponent {
               private curpipe: CurrencyPipe) {
     this.source = new LocalDataSource();
     this.getProducts();
-    //bonus (check admin rights)
+    
     let currentUser = this.userService.getUser();
     if(currentUser === null){
       this.settings.actions.add = false;
@@ -132,20 +132,15 @@ export class SmartTableComponent {
       alert('Please write the price of the product');
     else if (event.newData.sellerName === '')
       alert('Please write the name of the seller')
-    else if (event.newData.stock === '')
-      alert('Please write how many of the item is in stock')
     else {
-      event.newData.createdAt = new Date();
-      event.newData.updatedAt = new Date()
+      event.newData.createdAt = new Date()
 
       var newProd = {
         id: event.newData.id,
         name: event.newData.name,
         price: event.newData.price,
         createdAt: event.newData.createdAt,
-        updatedAt: event.newData.updatedAt,
-        sellerName: event.newData.sellerName,
-        stock: event.newData.stock
+        sellerName: event.newData.sellerName
       };
 
       var self = this;
