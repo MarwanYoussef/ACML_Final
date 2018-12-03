@@ -1,4 +1,4 @@
-![alt text](https://raw.githubusercontent.com/MarwanYoussef/ACML_Final/master/client/src/assets/logo-150.png)
+<img src="http://i65.tinypic.com/33xemps.png" alt="Fresh Food" />
 
 # Fresh Food Market
 
