@@ -23,8 +23,8 @@ $ ng serve -o
 ```
 
 ## Dependencies
-server dependencies
-
+> server dependencies
+```shell
 $ npm install bcryptjs
 $ npm install body-parser
 $ npm install compression
@@ -36,9 +36,10 @@ $ npm install jsonwebtoken
 $ npm install moment
 $ npm install mongoose
 $ npm install morgan
+```
 
-Frontend dependencies
-
+> client dependencies
+```shell
 $ npm install animations
 $ npm install common
 $ npm install compiler
@@ -70,3 +71,4 @@ $ npm install sweetalert2
 $ npm install typeface-exo
 $ npm install web-animations-js
 $ npm install zone.js
+```
