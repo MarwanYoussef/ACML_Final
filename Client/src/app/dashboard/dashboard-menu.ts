@@ -18,7 +18,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [{
       title: 'Login',
       icon: 'fa fa-sign-in',
-      link: '/dashboard/authelogin',
+      link: '/dashboard/auth/login',
     },
     {
       title: 'Sign up',

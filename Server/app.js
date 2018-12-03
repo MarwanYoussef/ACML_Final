@@ -9,6 +9,8 @@ var express = require('express'),
   config = require('./api/config/Config'),
   app = express();
 
+var port = process.env.port || 3000
+
 app.set('secret', config.SECRET);
 
 app.use(logger(process.env.NODE_ENV === 'production' ? 'combined' : 'dev'));
@@ -48,5 +50,13 @@ app.use(function(req, res) {
     data: null
   });
 });
+
+app.use(function(req, res, next) {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  next();
+});
+
+app.listen(port, () => { console.log('Server runnning on port 3000') })
 
 module.exports = app;
